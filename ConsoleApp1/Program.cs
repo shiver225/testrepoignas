@@ -16,6 +16,7 @@ namespace ConsoleApp1
             numbers.Add(4);
             numbers.Add(8);
             var squaredNumbers = numbers.Select(x => x + "labas");
+            Console.WriteLine("labas Ignai");
 
             foreach (var item in squaredNumbers)
             {
